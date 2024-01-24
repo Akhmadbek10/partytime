@@ -1,0 +1,424 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Montserrat:wght@200;400&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    border-bottom: 1px solid black;
+    /* border: 1px solid red; */
+}
+
+nav a img {
+    width: 100px;
+    margin-left: 50px;
+}
+
+.bolimlar {
+    width: 400px;
+    height: 40px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.bolimlar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+.sec-1 {
+    width: 100%;
+    height: 88vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 70px;
+    background: url("./bacground.jpg") no-repeat center/cover;
+}
+
+.main-sec {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+
+.about {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+    color: #FFF;
+    /* border: 1px solid gold; */
+}
+
+.about h1 {
+    font-size: 48x;
+    font-weight: 700;
+}
+
+.about p {
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.about-img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid green; */
+}
+
+.about-img img {
+    width: 350px;
+}
+
+.mainObuna {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.obuna {
+    width: 85%;
+    height: 642px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.obuna h1 {
+    font-size: 48px;
+}
+
+.Carts {
+    width: 100%;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.obunaCart {
+    width: 325px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #FFF;
+    /* border: 1px solid red; */
+    padding: 30px 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+}
+
+.obunaCart h2 {
+    text-align: center;
+}
+
+.obunaCart ul {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.obunaCart ul li {
+    margin-top: 10px;
+}
+
+.obunaCart button {
+    width: 113px;
+    height: 32px;
+    border-radius: 10px;
+    background: linear-gradient(204deg, #00FF47 15.69%, rgba(0, 62, 38, 0.84) 50.97%, rgba(25, 103, 164, 0.67) 88.21%, rgba(32, 57, 191, 0.57) 109.77%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 60px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.Xizmatlar {
+    width: 100%;
+    height: 1600px;
+    /* border: 1px solid red; */
+}
+
+.Xizmatlar h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mainXizmat {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.xizmat {
+    width: 90%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #00FF47; */
+}
+
+.xizmatImg {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid darkgoldenrod; */
+}
+
+.xizmatText {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: start;
+    padding: 20px;
+    /* border: 1px solid #ff4a08; */
+}
+
+.xizmatText p {
+    width: 80%;
+    margin-top: 30px;
+}
+
+.xizmatText button {
+    width: 131px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.xizmatText button:hover {
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.25);
+    transition: .3s;
+}
+
+.mainVinyl {
+    width: 100%;
+    height: 120vh;
+    /* padding: 0 144px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.vinyl {
+    width: 50%;
+    height: 90%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 30px;
+    justify-content: space-between;
+}
+
+.vin {
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+    background: var(--gwaliarecords-2-netlify-app-nero-02, rgba(255, 255, 255, 0.00));
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
+.vin a img {
+    /* width: ; */
+    height: 55%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.vin a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    gap: 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.vin a p {
+    width: 80%;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.vin a p:nth-child(4) {
+    font-size: 15px;
+}
+
+.vin a h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 900;
+}
+
+.vin a h3 span {
+    font-size: 11px;
+}
+
+.vin a span {
+    gap: 20px;
+}
+
+.vin a del {
+    display: inline;
+    color: red;
+    margin-left: 10px;
+}
+
+.vin a button {
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: black;
+    cursor: pointer;
+    transition: .3s;
+    text-decoration: none;
+    bottom: 20px;
+    position: absolute;
+}
+
+.vin a button {
+    color: white;
+    text-decoration: none;
+}
+
+.vinText {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    position: relative;
+}
+
+.vinText img {
+    position: absolute;
+    left: 30px;
+    top: 200px;
+}
+
+.vinText img:nth-child(2) {
+    position: absolute;
+    left: 30px;
+    top: 500px;
+}
+
+.vin-text {
+    width: 400px;
+    height: 500px;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.vin-text p {
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+footer {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+footer img {
+    width: 300px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+footer h1 {
+    color: white;
+    margin-left: 30px;
+}
+
+footer ul {
+    margin-left: 200px;
+    list-style-type: none;
+    color: #FFF;
+}
+
+.icons {
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 30px;
+    color: white;
+    margin-left: 80px;
+    transform: translateY(170px) translateX(100px);
+}
+
+.icons i {
+    font-size: 30px;
+}
